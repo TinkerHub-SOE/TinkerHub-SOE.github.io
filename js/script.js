@@ -45,7 +45,7 @@ new WOW().init();
 $('.countdown').final_countdown({
     start: new Date().getTime() / 1000, //Here use Milisecond. To convert your time you can go to this(https://currentmillis.com/) website.
     now: new Date().getTime()  / 1000,
-    end: new Date("07-23-2022 7:30 PM").getTime()  / 1000,
+    end: new Date("08-02-2022 10:00 AM").getTime()  / 1000,
     seconds: {
         borderColor: '#5677fc',
         borderWidth: '3'
