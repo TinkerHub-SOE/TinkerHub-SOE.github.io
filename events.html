@@ -54,6 +54,7 @@
 </div>
 <!-- header section end -->
 
+
 <!-- booking section start -->
 <div class="booking_section ">
     <div class="container text-center">
@@ -61,6 +62,39 @@
     </div>
 </div>
 <!-- booking section end -->
+
+<!-- services section start -->
+<div class="banner_section layout_padding pt-5 pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ">
+                <img src="images/oyc.png" class="image_1">
+            </div>
+            <div class="col-md-6 d-flex align-items-center ">
+                <div class="d-flex flex-column">
+                    <h2>Own Your Career</h2>
+                    <p class="about_text mt-4">
+                        A career is not just means of living or making money. It define who you are, what you do, and
+                        how you contribute to society,it's about doing something meaningful and fulfilling with our
+                        lives.<br><br>
+
+                        Tinkerhub brings to you OYC "Own your carrer" campaign which aims to help students launch
+                        successful careers.<br><br>
+
+
+                    </p>
+                </div>
+            </div>
+            <a style="margin:2rem auto 0 auto;" href="OYC_CHECKLIST.pdf">
+                <button type="button" style="color: white; background-color: #fb7a66; "
+                        class="btn btn-lg">Checklist PDF
+                </button>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- services section end -->
+
 <!-- services section start -->
 <div class="banner_section layout_padding pb-0">
     <div class="container">
@@ -158,42 +192,43 @@
         </div>
     </div>
 </div>
-    <!-- copyright section end -->
+<!-- copyright section end -->
 
-    <!-- Javascript files-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/plugin.js"></script>
-    <!-- sidebar -->
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/custom.js"></script>
-    <!-- javascript -->
-    <script src="js/owl.carousel.js"></script>
-    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".fancybox").fancybox({
-                openEffect: "none",
-                closeEffect: "none"
-            })});
+<!-- Javascript files-->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/plugin.js"></script>
+<!-- sidebar -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/custom.js"></script>
+<!-- javascript -->
+<script src="js/owl.carousel.js"></script>
+<script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".fancybox").fancybox({
+            openEffect: "none",
+            closeEffect: "none"
+        })
+    });
 
-    </script>
-    <script>
-        $(document).ready(function () {
-            // Add minus icon for collapse element which is open by default
-            $(".collapse.show").each(function () {
-                $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
-            });
-
-            // Toggle plus minus icon on show hide of collapse element
-            $(".collapse").on('show.bs.collapse', function () {
-                $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
-            }).on('hide.bs.collapse', function () {
-                $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
-            });
+</script>
+<script>
+    $(document).ready(function () {
+        // Add minus icon for collapse element which is open by default
+        $(".collapse.show").each(function () {
+            $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
         });
-    </script>
+
+        // Toggle plus minus icon on show hide of collapse element
+        $(".collapse").on('show.bs.collapse', function () {
+            $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+        }).on('hide.bs.collapse', function () {
+            $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+        });
+    });
+</script>
 </body>
 </html>
